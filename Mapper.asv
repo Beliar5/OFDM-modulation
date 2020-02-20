@@ -1,0 +1,6 @@
+a = randi(2,1,128)-1
+b = QAM(a,16);
+scatterplot(b)
+ylabel('Imaginary')
+xlabel('Real') 
+axis([-8 8 -8 8])
